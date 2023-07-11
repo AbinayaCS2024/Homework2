@@ -1,0 +1,34 @@
+body
+{
+    text-align: center;
+    background-color: aquamarine;
+}
+#id1 ul{
+    float: center;
+    background-color: greenyellow;
+}
+#id1 ul li{
+    display: inline;
+    margin-right: 150px;
+}
+#id1 ul li a{
+    color:crimson;
+    text-decoration: none;
+}
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.container img{
+    position: absolute;
+    left: 30%;
+    right: 10%;
+    transform: translate(-50%,5%);
+}
+.para1{
+    text-emphasis: none;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
